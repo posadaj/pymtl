@@ -12,8 +12,8 @@ import copy
 #-----------------------------------------------------------------------
 def _get_nbits( N ):
   'Utility class for calculating number of bits needed to store a value'
-  if N > 0: return N.bit_length()
-  else:     return N.bit_length() + 1
+  if N > 0: return N.bit_length() + 1
+  else:     return N.bit_length()
 
 #-----------------------------------------------------------------------
 # Bits
